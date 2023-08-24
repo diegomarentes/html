@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="./css diego/frmcontacto.css">
+</head>
+<body>
+    <header>
+        <img src="./IMG/incap.png" alt=""width="100"
+        height="100">
+        <h1>FORMULARIO INCAP</h1>
+    </header>
+    <NAV>
+        <P>ESTEFORMULARIO ES PARA REGISTRAR EL INGRESO DE UN ESTUDIANTE</P>
+    </NAV>
+    <section>
+        <form action="">
+            <fieldset>
+                <label for="">Nombre completo</label>
+                <input type="text" placeholder="ingrese su Nombre y apellido" autofocus required>
+                <br><br>
+                <label for="">EMAIL:</label>
+                <input type="email" placeholder="ingrese su correo" required>
+                <br><br>
+                <label for="">contraseña</label>
+                <input type="password" placeholder="ingrese su contraseña" required>
+                <br><br><br>
+                <label for="">sellecione tus hobbies</label>
+                <br><br>
+                <input type="checkbox">cine
+                <input type="checkbox">lectura
+                <input type="checkbox">deporte
+                <br><br>
+                <label for="">estado civil</label> <br>
+                <input type="radio" name="estadocivil" value="soltero">soltero(a)
+                <input type="radio" name="estadocivil" value="casado"> casado(a)
+                <input type="radio" name="estadocivil" value="viudo"> viudo(a)
+                <br><br>
+                <!-- seccion de control de lista de opciones -->
+                <label for="">programas tecnicos incap</label>
+                <select name="" id="">
+                    <option value="">seccione programa</option><br>
+                    <option value="">sistemas</option><br>
+                    <option value="">diseño grafico</option><br>
+                    <option value="">contabilidad</option><br>
+                </select>
+                <br>
+                <label for="">fecha de Nacimiento</label>
+                <input type="date">
+                <br><br>
+                <label for="">coloque su edad</label><br>
+                <input type="number">
+                <br><br>
+                <label for="">subir foto archivo</label>
+                <input type="file">
+                <br><br>
+                <label for="">comentrios:</label>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+                </fieldset>
+                <br><br>
+                <button type="sumit">enviar</button>
+                <button type="reset">cancelar</button>
+                <br><br>
+                
+        </form>
+    </section>
+    <footer>
+        <cite>derechos resevados &copy;2023@ Diego</cite>
+    </footer>
+
+
+</body>
+</html>
