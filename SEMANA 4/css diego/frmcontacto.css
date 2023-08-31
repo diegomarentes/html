@@ -1,3 +1,85 @@
 body{
-    background-color: crimson;
+    background-color: lightgreen;
 }
+header{
+    background-color: blue !important;
+    border: 2px solid blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+}
+header img{
+    padding: 20px;
+}
+nav{
+    background-color: blueviolet;
+    border: 2px solid yellowgreen;
+    border-radius: 22px;
+}
+    nav p{
+        text-align:center ;
+        color: azure;
+        font-size: 40px;
+    }
+    section{
+        width: 40%;
+        border: 2px solid darkred;
+        padding: 10px;
+        border-radius: 25px;
+        margin: 10px auto;
+        background:linear-gradient(blueviolet,blue) ;
+    }
+    form{
+    background: silver;
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: outset 0 0 8px rgba(76, 0, 255, 0.618);
+    }
+    fieldset{
+        border-style: none;
+    }
+    label{
+        font-size: 18px;
+    }
+    textarea{
+        resize: both;
+        max-height: 100px;
+    }
+    input:focus, textarea:focus{
+    border-color: blueviolet;
+    cursor: pointer;
+    box-shadow: inset blanchedalmond;
+    outline: 0 none;
+    }
+    form button{
+    width: 40%;
+    margin: 10px auto;
+    height: 40px;
+    background: radial-gradient(teal,white);
+    color: beige;
+    border-radius:  15px; 
+    }
+    form button:hover{
+        background-color:  burlywood;
+        text-decoration: underline;
+        color: darkorchid;
+        cursor: pointer;
+    }
+    form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: darkseagreen;
+    outline: none;
+    border: 2px solid yellow;
+    }
+    footer{
+    font-size: 16px;
+    text-align:center;
+    color: peru;
+
+    
+    }
